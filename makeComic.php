@@ -1,4 +1,18 @@
 <?php
+/**
+ * Mini Comic Maker
+ *
+ * Copyright 2013, Tyler J. Hutchison and We Draw Comics (http://wedrawcomics.com)
+ *
+ * Licensed under The MIT License
+ * Redistributions of files must retain the above copyright notice.
+ *
+ * @author        Tyler J. Hutchison
+ * @link          http://tylersaurus.com
+ * @copyright     Copyright 2013, We Draw Comic (http://wedrawcomics.com)
+ * @license       MIT License (http://www.opensource.org/licenses/mit-license.php)
+ */
+
 date_default_timezone_set('America/Los_Angeles');
 ini_set("memory_limit","200M");
 
