@@ -3,7 +3,7 @@ date_default_timezone_set('America/Los_Angeles');
 ini_set("memory_limit","200M");
 
 $numberOfPages = 8;
-$projectDir = "TestPDF";
+$projectDir = "MyExampleComic";
 $pageName = "Page";
 $dpi = 300;
 
