@@ -41,9 +41,6 @@ for($i = 0; $i < $numberOfPages/2; $i++)
     //top row
     imagecopy($finalImage,$leftImage, 0,0,0,0,$leftImageInfo[0],$leftImageInfo[1]);
     imagecopy($finalImage,$rightImage, $leftImageInfo[0],0,0,0,$rightImageInfo[0], $rightImageInfo[1]);
-    //bottom row This is only used if you are double stacking your files.
-    //imagecopy($finalImage,$leftImage, 0,$leftImageInfo[1],0,0,$leftImageInfo[0],$leftImageInfo[1]);
-    //imagecopy($finalImage,$rightImage, $leftImageInfo[0],$rightImageInfo[1],0,0,$rightImageInfo[0], $rightImageInfo[1]);
     
     //Where the files will be placed
     $target_path = "$projectDir/spreads";
