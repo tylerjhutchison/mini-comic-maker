@@ -9,7 +9,7 @@
  *
  * @author        Tyler J. Hutchison
  * @link          http://tylersaurus.com
- * @copyright     Copyright 2013, We Draw Comic (http://wedrawcomics.com)
+ * @copyright     Copyright 2013, We Draw Comics (http://wedrawcomics.com)
  * @license       MIT License (http://www.opensource.org/licenses/mit-license.php)
  */
 
