@@ -17,7 +17,7 @@ Quick Start
 1. Create new folder. e.g. MyExampleComic
 2. Place image files in folder. e.g. Page0001.png, Page0002.png, Page0003.png etc.
 3. Edit Settings in makeComic.php: 
-  - $numberOfPages : The number of pages in your book. Make sure this number is divisible by 4. If the amount of pages in your comic is not divisible by 4 then pad it by adding blank pages to the front or back before running the script.
-  - $projectDir : The name of the folder containing your image files e.g. MyExampleComic
-  - $pageName : The prefix name of your image files. e.g. If your image files are named Page0001.png the $pageName should be "Page"
+  - **$numberOfPages** : The number of pages in your book. Make sure this number is divisible by 4. If the amount of pages in your comic is not divisible by 4 then pad it by adding blank pages to the front or back before running the script.
+  - **$projectDir** : The name of the folder containing your image files e.g. MyExampleComic
+  - **$pageName** : The prefix name of your image files. e.g. If your image files are named Page0001.png the $pageName should be "Page"
 4. Run Script: makeComic.php
