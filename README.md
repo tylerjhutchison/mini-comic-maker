@@ -15,8 +15,8 @@ A simple script for making a paginated mini comic.
 Quick Start
 --------
 1. Create new folder. e.g. MyExampleComic
-2. Place image files in folder. e.g. Page0001.png, Page0002.png, Page0003.png etc.
-3. Edit Settings in makeComic.php: 
+2. Place image files in folder. They should be numerically ordered e.g. Page0001.png, Page0002.png, Page0003.png etc.
+3. Edit Settings in makeComic.php and save the file. This can be done using TextEdit, WordPad or any number of simple text editors.
   - **$numberOfPages** : The number of pages in your book. Make sure this number is divisible by 4. If the amount of pages in your comic is not divisible by 4 then pad it by adding blank pages to the front or back before running the script.
   - **$projectDir** : The name of the folder containing your image files e.g. MyExampleComic
   - **$pageName** : The prefix name of your image files. e.g. If your image files are named Page0001.png the $pageName should be "Page"
@@ -24,9 +24,9 @@ Quick Start
 
 How to run a PHP script on OS X for beginners.
 ------------
-1. **Open the Terminal**. It is located in Applications/Utilities/Terminal
-2. **Navigate to  mini-comic-maker**. If your mini-comic-maker folder is located on your desktop type: cd Desktop/mini-comic-maker and then press enter. If your mini-comic-maker is located in your Documents under a folder labled comics type: cd Documents/comics/mini-comic-maker and then press enter.  You can check to make sure that you are in the correct directory by typing: ls and pressing enter. This command will display all of the files located in the current directory, if you are in the correct location you should see the file makeComic.php listed.
-3. **Run the Script**. Type in php makeComic.php and press enter. The script will start building your comic. When it is complete, look for the files labled: finished.pdf in your project folder.
+1. **Open the Terminal**. It is located in **Applications/Utilities/Terminal**
+2. **Navigate to  mini-comic-maker folder**. If your mini-comic-maker folder is located on your desktop type: **cd Desktop/mini-comic-maker-folder-name** and then press enter. If your mini-comic-maker is located in your Documents under a folder labled comics type: **cd Documents/comics/mini-comic-maker-folder-name** and then press enter.  You can check to make sure that you are in the correct directory by typing: **ls** and pressing enter (This is a lowercase L not a capital I). This command will display all of the files located in the current directory, if you are in the correct location you should see the file makeComic.php listed.
+3. **Run the Script**. Type in: **php makeComic.php** and press enter (Capital letters do matter). The script will start building your comic. When it is complete, look for the files labled: **finished.pdf** in your project folder. e.g. MyExampleComic
 
 How to run a PHP script on Windows
 -------
