@@ -25,7 +25,7 @@ Quick Start
 How to run a PHP script on OS X for beginners.
 ------------
 1. **Open the Terminal**. It is located in Applications/Utilities/Terminal
-2. **Navigate to  mini-comic-maker**. If your mini-comic-maker folder is located on your desktop type: cd Desktop/mini-comic-maker and then press enter. If your mini-comic-maker is located in your Documents under a folder labled comics type: cd Documents/comics/mini-comic-maker and then press enter.
+2. **Navigate to  mini-comic-maker**. If your mini-comic-maker folder is located on your desktop type: cd Desktop/mini-comic-maker and then press enter. If your mini-comic-maker is located in your Documents under a folder labled comics type: cd Documents/comics/mini-comic-maker and then press enter.  You can check to make sure that you are in the correct directory by typing: ls and pressing enter. This command will display all of the files located in the current directory, if you are in the correct location you should see the file makeComic.php listed.
 3. **Run the Script**. Type in php makeComic.php and press enter. The script will start building your comic. When it is complete, look for the files labled: finished.pdf in your project folder.
 
 How to run a PHP script on Windows
