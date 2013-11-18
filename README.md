@@ -20,4 +20,14 @@ Quick Start
   - **$numberOfPages** : The number of pages in your book. Make sure this number is divisible by 4. If the amount of pages in your comic is not divisible by 4 then pad it by adding blank pages to the front or back before running the script.
   - **$projectDir** : The name of the folder containing your image files e.g. MyExampleComic
   - **$pageName** : The prefix name of your image files. e.g. If your image files are named Page0001.png the $pageName should be "Page"
-4. Run Script: makeComic.php
+4. Run Script: makeComic.php. See the sections below for how to run a PHP script.
+
+How to run a PHP script on OS X for beginners.
+------------
+1. **Open the Terminal**. It is located in Applications/Utilities/Terminal
+2. **Navigate to  mini-comic-maker**. If your mini-comic-maker folder is located on your desktop type: cd Desktop/mini-comic-maker and then press enter. If your mini-comic-maker is located in your Documents under a folder labled comics type: cd Documents/comics/mini-comic-maker and then press enter.
+3. **Run the Script**. Type in php makeComic.php and press enter. The script will start building your comic. When it is complete, look for the files labled: finished.pdf in your project folder.
+
+How to run a PHP script on Windows
+-------
+I don't actually know how to do this I have never used Windows as a dev environment before. But it seems like you can probably find some instructions pretty easily, this was one of the first results I found from google: http://editrocket.com/articles/php_windows.html
